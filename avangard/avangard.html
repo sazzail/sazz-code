@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Avangard (Ecomerce Website) </title>
+	<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div class="header">		
+	<div class="container">
+		<div class="NavBar">     <!-- navigation bar -->
+		    <div class="Logo">
+			    <img src="logo.png" width="250px">
+		    </div>
+		    <nav>
+			    <ul id="MenuItems">                     <!-- the upwords ribbon is here -->
+				    <li><a href="">Home</a></li>
+				    <li><a href="">Products</a></li>
+				    <li><a href="">About</a></li>
+				    <li><a href="">Contacts</a></li>
+				    <li><a href="">Accounts</a></li>
+			    </ul>
+			    <img src="cart1.png" width="30px" height="30px">
+			    <img src="menu-1.png" class="menu-icon" onclick="menutoggle()">
+		    </nav>
+		    
+	    </div>
+	    <div class="row">
+	    	<div class="col-2">
+	    		<h1>The easy way to <br>shop Online!</h1>
+	    		<p>you are Hungry, you dont want to go to the store, so come <br>on and order from us we give you an express delevery.</p>
+	    		<a href="" class="btn">Explore Now &#8594;</a>
+	    	</div>
+
+	    	<div class="col-2">
+	    		<img src="soft-drinks.png">
+	    	</div>
+	    	
+	    </div>
+	</div>
+</div>
+
+<!---- featured catagorese ------->
+<div class="catagories">
+	<div class="small-container">
+			<div class="row">
+		        <div class="col-3">
+			        <img src="cocacola.png">
+		        </div>
+		        <div class="col-3">
+			        <img src="mouten dew.png">
+		        </div>
+		        <div class="col-3">
+			        <img src="pepsi.png">
+		        </div>
+		    </div>    
+	</div>	
+</div>
+
+<!---- featured Products ------->
+<div class="small-container">
+	<h2 class="title">Featured Products</h2>
+	<div class="row">
+		<div class="col-4">
+			<img src="PRpepsi.png">
+			<h4>Pepsi-355ml Canned Cola</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$1.99</p>
+		</div>
+				<div class="col-4">
+			<img src="PRdew.png">
+			<h4>Mountain Dew Soft Drink, 250 ml Can</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+			<p>$1.19</p>
+		</div>
+				<div class="col-4">
+			<img src="PRmirinda.png">
+			<h4>Mirinda Orange Soft Drink Can 330ml</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$1.19</p>
+		</div>
+				<div class="col-4">
+			<img src="PRcocacola.png">
+			<h4>Cocacola-250ml Canned Cola</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>$0.71</p>
+		</div>
+	</div>
+
+<!---- latest Products ------->	
+	<h2 class="title">Latest Product</h2>
+	<div class="row">
+		<div class="col-4">
+			<img src="PRcocacolal-light.png">
+			<h4>Coca Cola Light Carbonated Soft Drink 330ml</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$0.68</p>
+		</div>
+				<div class="col-4">
+			<img src="PRmonster.png">
+			<h4>Monster Energy Drink, 350 ml</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>$1.27</p>
+		</div>
+				<div class="col-4">
+			<img src="PRredbull.png">
+			<h4>Red Bull Energy Drink 250 ml</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$3.23</p>
+		</div>
+				<div class="col-4">
+			<img src="PRthumbsup.png">
+			<h4>Thums Up Soft Drink, 300 ml Can</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$0.46</p>
+		</div>
+				<div class="col-4">
+			<img src="PRcocacola-cherry.png">
+			<h4>Coca-Cola Cherry Coke Soda,</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-sta"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$0.50</p>
+		</div>
+				<div class="col-4">
+			<img src="PRdiet-coke.png">
+			<h4>Coca Cola Diet Can 250ml</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-sta"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>$0.58</p>
+		</div>
+				<div class="col-4">
+			<img src="PRdrpeper.png">
+			<h4>Dr.Peper can-138ml</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$0.46</p>
+		</div>
+				<div class="col-4">
+			<img src="PRfanta-strawberry.png">
+			<h4>Fanta Strawberry Can</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-sta"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>$2.07</p>
+		</div>
+	</div>
+</div>
+<!---- latest Products ------->	
+<div class="offer">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-2">
+				<img src="cocacola-case.png" class="offer-img">
+			</div>
+			<div class="col-2">
+				<p>--Exclusive offer on Avangard--</p>
+				<h1>Coca-Cola Original Soda Pop, 12 Fl Oz, 24 Pack Cans</h1>
+				<small>Coca-Cola Original Soda Pop, 24 Pack Cans will be sold at a discount of 30 % of your first purchase after that you get a discount of 10% this offer stand stil end of may.<br>
+				</small>
+				<a href="" class="btn">Buy Now &#8594;</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!---------- Testimonial ----------->
+<div class="testimonial">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-3">
+				<i class="fa fa-quote-left"></i>
+				<p>"Sazzadul Islam Molla is the creator of this website. it took him about 20-45 hours to compleart this pronject and he is the Chief developer of the website"</p>
+				<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-sta"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<img src="sazzadul.png">
+			<h3>Sazzadul Islam Molla</h3>
+			</div>
+			<div class="col-3">
+				<i class="fa fa-quote-left"></i>
+				<p>"Sourov Kumar is the co developer who helped the cheaf Developer to editing the images and cordination of the armed forcec of Russia tio win the war"</p>
+				<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-sta"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<img src="sorov.png">
+			<h3>Sourov Kumar</h3>
+			</div>
+
+			<div class="col-3">
+				<i class="fa fa-quote-left"></i>
+				<p>"Nayan Das who dident do anything but he was still mentioned becouse it was a nesasary evil. naya is a NATO general who commited war crimes"</p>
+				<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-sta"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<img src="nayan.png">
+			<h3>Nayan Das</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!---------- brands ----------->
+<div class="brands">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-5">
+				<img src="Coca-Cola-Logo.png">
+			</div>
+			<div class="col-5">
+				<img src="PayPal_logo.png">
+			</div>
+			<div class="col-5">
+				<img src="PepsiCo_logo.png">
+			</div>
+			<div class="col-5">
+				<img src="Visa_Inc._logo.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!---------- brands ----------->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>Download App for Android and ios mobile phone.</p>
+				<div class="app-logo">
+					<img src="app store.png">
+					<img src="google play.png">
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<img src="logo.png">
+				<p>Our Purpose Is To Sustainably Make the Pleasure and Benfits of Sports Accessible to the Many</p>
+			</div>
+			<div class="footer-col-3">
+				<h3>Useful Links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow us</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>You Tube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="Copyright">Cpyright 2022 - Avangard E-comerce Website</p>
+
+	</div>
+</div>
+<!--------- js for toggle menu -------->
+<script>
+	var MenuItems = document.getElementById('MenuItems')
+
+	MenuItems.style.maxHeight = "0px" 
+
+	function menutoggle(){
+		if (MenuItems.style.maxHeight == "0px") 
+		{
+			MenuItems.style.maxHeight = "200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight = "0px";
+		}
+
+	}
+</script>
+
+
+</body>
+</html>

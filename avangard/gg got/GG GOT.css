@@ -1,0 +1,55 @@
+body {background-image: url(Gone.jpg);
+	background-size: 100%
+} 
+h1 {color: rgb(56, 132, 255);
+	font-size: 70px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+ }
+p {color: rgb(7, 19, 242);
+	font-size: 40px;
+	font-weight: bold;
+	background-color: black;
+	background-size: 80px 80px;
+}
+img {border-color: black;
+	border-width: 10px;
+	border-style: ridge;
+}
+table {width: 100%;
+	border-collapse: collapse;
+}
+table th, td {border: solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+th, td {padding: 10px;
+	text-align: left;
+}
+tr:nth-child(even) {background-color: rgba(87, 142, 244, 0.55);
+	font-family: impact; 
+	color: rgb(255, 0, 0);
+}
+tr:nth-child(odd) {background-color: rgba(87, 142, 10, 0.55);
+	font-family: arial black;
+	color:rgb(255, 0, 0);
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 187, 0);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:rgb(3, 53, 252);
+}
+
+div {background-size: 100%;
+}
